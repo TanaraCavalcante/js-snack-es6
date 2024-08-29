@@ -11,3 +11,36 @@ nome dell'ospite (guestName),
 posto occupato (place),
 Generiamo e stampiamo in console la lista per i segnaposto.
 */ 
+
+const tavoloVip = [
+    {
+     nome :'Brad Pitt'
+    },
+    {
+     nome :'Johnny Depp'
+    },
+    {
+     nome :'Lady Gaga'
+    },
+    {
+     nome :'Cristiano Ronaldo'
+    }, 
+    {
+     nome :'Georgina Rodriguez'
+    },
+    {
+     nome :'Chiara Ferragni'
+    },
+    {
+     nome :'George Clooney'
+    },
+    {
+     nome :'Fedez'
+    },
+    {
+     nome :'Amadeus'
+    },
+    {
+     nome :'Fiorello'
+    }, 
+    ];
