@@ -28,7 +28,7 @@ console.log(peso);
 const biciList = biciCorsa.map((name, _ , array) => {
     const bici= {
         name: 'Bici da Corsa',
-        peso: peso,
+        peso,
     }
     return bici;
 });
