@@ -15,29 +15,11 @@ const getRandomNumbers = (min, max, totNumbers) => {
   }
 
 //Creare un array di oggetti bici di corsa
-const biciCorsa = [];
-
-//Quante bici metterei nel array
-const totBici = 5;
 
 //generare il peso delle bici
-const peso = getRandomNumbers(10, 20, totBici);
-console.log(peso);
 
 //Proprietà : bici e peso
-const biciList = biciCorsa.map((name, _ , array) => {
-    const bici= {
-        name: 'Bici da Corsa',
-        peso,
-    }
-    return bici;
-});
-console.log(biciList)
 
 //Qualle bici pesa meno
-  
-let ligthBici = peso.map(Number).reduce(function(max, min) {  
-  return Math.min(max, min);  
-});  
+
         
-console.log(ligthBici); 
