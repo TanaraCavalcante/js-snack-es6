@@ -12,35 +12,16 @@ posto occupato (place),
 Generiamo e stampiamo in console la lista per i segnaposto.
 */ 
 
-const tavoloVip = [
-    {
-     nome :'Brad Pitt'
-    },
-    {
-     nome :'Johnny Depp'
-    },
-    {
-     nome :'Lady Gaga'
-    },
-    {
-     nome :'Cristiano Ronaldo'
-    }, 
-    {
-     nome :'Georgina Rodriguez'
-    },
-    {
-     nome :'Chiara Ferragni'
-    },
-    {
-     nome :'George Clooney'
-    },
-    {
-     nome :'Fedez'
-    },
-    {
-     nome :'Amadeus'
-    },
-    {
-     nome :'Fiorello'
-    }, 
-    ];
+const list = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello'];
+
+const vipTable = list.map((name , i) => {
+    const guest = {
+        name: name,
+        table: 'Tavolo VIP',
+        place: i + 1
+    }
+    return guest;
+});
+
+console.log(vipTable);
+    
