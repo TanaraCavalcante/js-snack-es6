@@ -16,4 +16,6 @@ const uperNames = names.map( name => {
     return fisrtLetter + wordLower;
 })
 
+console.log(uperNames);
+
 
