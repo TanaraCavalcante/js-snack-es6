@@ -6,9 +6,9 @@ Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e 
 */
 
 const people = [
-    { nome: 'Larissa', congnome: 'Sousa', eta: 18},
-    { nome: 'Luca', congnome: 'Mauro', eta: 25},
-    { nome: 'Tamyres', congnome: 'Silva', eta: 13},
+    { nome: 'Larissa', cognome: 'Sousa', eta: 18},
+    { nome: 'Luca', cognome: 'Mauro', eta: 25},
+    { nome: 'Tamyres', cognome: 'Silva', eta: 13},
   ];
 
 const messages = people.map((persona)=> 
